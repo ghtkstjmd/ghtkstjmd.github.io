@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 1200px;
+    height: 690px;
+    margin: 0 auto;
+    background-image: url(img/mushrooms.jpg);
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    margin: 450px 0 0 550px;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.backpack {
+    display: none;
+}
+
+.button:hover .backpack {
+    display: block;
+    width: 150px;
+    height: 150px;
+}

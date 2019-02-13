@@ -1,0 +1,18 @@
+"""Этот файл делает что-то полезное, но в нём есть баги. Устрани их и запусти,
+либо разберись, как работает код и получи ответ"""
+from PIL import Image
+
+
+letters = 'asjgjslfdfshalffjskggfjsllfhjgkffhsgldjkl
+nums = [2, 7, -14, 4, 10, 0, -9, -17, 8, 4]
+name = ''
+for num in nums[3:-2]
+    for letter in letters
+        if letter is not 'h':
+            if letter == letters[num]
+                print(letter)
+                NAME += letter
+                break
+
+img = Image.open(f'D:\ghsdkg\{name}.png')
+img.show()
